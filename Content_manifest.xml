@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+  xmlns:ov="http://schemas.microsoft.com/office/contentappversionoverrides" xsi:type="ContentApp">
+  <Id>f62bec1f-dfac-40fc-be31-94aaad6cc80b</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>TELLcom</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="ContentApp"/>
+  <Description DefaultValue="A simple ContentApp"/>
+  <IconUrl DefaultValue="https://robertkiri.github.io/images/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://robertkiri.github.io/images/icon-64.png"/>
+  <SupportUrl DefaultValue="https://robertkiri.github.io"/>
+  <Hosts>
+    <Host Name="Workbook"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://robertkiri.github.io/ContentApp.html"/>
+    <RequestedWidth>200</RequestedWidth>
+    <RequestedHeight>200</RequestedHeight>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+  <AllowSnapshot>true</AllowSnapshot>
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/contentappversionoverrides" xsi:type="VersionOverridesV1_0">
+  </VersionOverrides>
+</OfficeApp>
