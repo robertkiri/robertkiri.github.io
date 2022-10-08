@@ -1,0 +1,31 @@
+<html>
+
+<body>
+
+
+<p id="received">ContentApp my name</p>
+
+<input type="text" id="message"></html>
+
+<button id="button">Send message</button>
+
+
+<script>
+
+    const channel = new BroadcastChannel("example-channel");
+    const messageControl = document.querySelector("#message");
+    const button = document.querySelector("#button");
+    const received = document.querySelector("#received");
+    
+    button.addEventListener("click", () => {
+        console.log("sent item");
+        channel.postMessage(messageControl.value);
+    });
+    
+    channel.addEventListener("message", (event) => {
+      console.log("received");
+      received.textContent = event.data;
+    });
+    </script>
+</body>
+</html>
