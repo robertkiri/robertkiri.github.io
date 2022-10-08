@@ -2,8 +2,8 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
-  xmlns:ov="http://schemas.microsoft.com/office/Contentappversionoverrides" xsi:type="ContentApp">
-  <Id>9efbe08e-4835-4faa-8192-1a3a035a6f37</Id>
+  xmlns:ov="http://schemas.microsoft.com/office/contentappversionoverrides" xsi:type="ContentApp">
+  <Id>f62bec1f-dfac-40fc-be31-94aaad6cc80b</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>TELLcom</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
@@ -22,7 +22,7 @@
     <SourceLocation DefaultValue="https://robertkiri.github.io/ContentApp.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
-  <VersionOverrides xmlns="http://schemas.microsoft.com/office/Contentappversionoverrides" xsi:type="VersionOverridesV1_0">
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/contentappversionoverrides" xsi:type="VersionOverridesV1_0">
     <Hosts>
       <Host xsi:type="Workbook">
         <DesktopFormFactor>
