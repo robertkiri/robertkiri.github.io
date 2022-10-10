@@ -18,7 +18,7 @@
   <DefaultSettings>
     <SourceLocation DefaultValue="https://robertkiri.github.io/ContentApp.html"/>
     <RequestedWidth>200</RequestedWidth>
-    <RequestedHeight>200</RequestedHeight>
+    <RequestedHeight>400</RequestedHeight>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <AllowSnapshot>true</AllowSnapshot>
