@@ -1,14 +1,20 @@
 <html>
 
 <body>
-
-
-<p id="received">ContentApp my name</p>
+<title>ContentApp</title>  
+<h1>ContentApp</h1> 
+<br>
+<br>
+<br>
+<p>Message:</p>
+<p id="received"></p>
 
 <input type="text" id="message"></html>
 
 <button id="button">Send message</button>
-
+<br>
+<br>
+<button id="button" (onclick)="openwindow()">Open window</button>
 
 <script>
 
@@ -26,6 +32,10 @@
       console.log("received");
       received.textContent = event.data;
     });
+
+    function openwindow(){
+      window.open("https://robertkiri.github.io/TakPaneApp.html");
+    }
     </script>
 </body>
 </html>
