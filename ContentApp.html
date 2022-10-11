@@ -13,7 +13,7 @@
   </style>
 
 <title>ContentApp</title>  
-<h1>ContentApp</h1> 
+<h1 id="name">ContentApp</h1> 
 <br>
 
 <label>Message received:</label>
@@ -26,12 +26,15 @@
 <br>
 <button id="button" onclick="openwindow()">Open window</button>
 
+<script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+
 <script>
 
     const channel = new BroadcastChannel("example-channel");
     const messageControl = document.querySelector("#message");
     const button = document.querySelector("#button");
     const received = document.querySelector("#received");
+    const name = document.querySelector("#name");
     
     button.addEventListener("click", () => {
         console.log("sent item");
@@ -46,6 +49,11 @@
     function openwindow(){
       window.open("https://robertkiri.github.io/TaskPaneApp.html","","width=200,height=200");
     }
+
+    Office.onReady(function(info) {
+      let date = new Date();
+      name.textContent = "ConsoleApp loaded: " + date;
+    });
     </script>
 </body>
 </html>
